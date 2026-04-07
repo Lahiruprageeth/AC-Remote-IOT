@@ -12,7 +12,8 @@
 
 Connect the modules using a breadboard and jumper wires. Assign **GPIO 32** on the ESP32 to the IR receiver and **GPIO 33** to the IR emitter.
 
-![image.png](attachment:c8f6b7a5-2991-425e-8fa5-c8fd40991936:image.png)
+<img width="1117" height="719" alt="image" src="https://github.com/user-attachments/assets/633f6752-8514-464b-8d05-40debf609283" />
+
 
 ## Firmware Upload
 
@@ -23,8 +24,8 @@ First, open the website https://esptool.spacehuhn.com/ in your browser.
 3. Once connected, you will see a field to upload files to your ESP32.
 4. Follow the numbered locations on the screen to upload files accordingly. *(Refer to the screenshot for guidance.*
 5. 
+<img width="1107" height="743" alt="image (1)" src="https://github.com/user-attachments/assets/bd50e9a6-3568-479d-86ec-74528003b82d" />
 
-![image.png](attachment:65c88b0d-0efa-40e3-b6a7-6d415f0e918c:image.png)
 
 **Download all the `.bin` file-** https://github.com/Lahiruprageeth/AC-Remote-IOT/blob/main/Firmware.rar
 
@@ -37,7 +38,8 @@ First, open the website https://esptool.spacehuhn.com/ in your browser.
 
  After uploading the firmware, open https://terminal.spacehuhn.com/ . This web terminal lets you save WiFi settings and IR remote data on your ESP32 easily.
 
-![image.png](attachment:33b8f7f9-f4ad-4ef7-bc0e-77c13625d547:image.png)
+<img width="1142" height="704" alt="image (2)" src="https://github.com/user-attachments/assets/b90d8dc8-0a0c-4803-aaa4-72649089a046" />
+
 
 Click the **Connect** button, select the correct COM port, and connect to your ESP32. Once connected successfully, you will see a page with a text field and a **Send** button, where you can send and receive messages.
 
@@ -45,20 +47,22 @@ Click the **Connect** button, select the correct COM port, and connect to your E
 
 Type **“A”** in the text field and click the **Send** button. After that, you will see the message **“Please aim your AC remote, press any button”**. Now, press the **Power button** on your AC remote.
 
-![image.png](attachment:56af85e8-f9fc-4309-87cc-1cf359b58426:image.png)
+<img width="1144" height="249" alt="image (3)" src="https://github.com/user-attachments/assets/28c59421-36a6-48d2-8b49-7cf500dab188" />
+
 
 ### STEP 2
 
 Type **`WIFI=SSID,PASSWORD`** In the text field and click the **Send** button. Make sure to use your **2.4 GHz WiFi** and be careful **not to include any extra spaces**. This will save your WiFi credentials on the ESP32 so it can connect automatically.
 
-![image.png](attachment:c92077c0-3d7f-49be-a6ad-0623252be735:image.png)
+<img width="1142" height="230" alt="image (4)" src="https://github.com/user-attachments/assets/ad4b1f99-9dea-4cd4-9eea-1345e1c28012" />
+<img width="1144" height="336" alt="image (5)" src="https://github.com/user-attachments/assets/45137b20-7698-4ff6-a890-70aeb4211bc3" />
 
-![image.png](attachment:7467e792-56a8-4b71-ba58-d84b3b00aabe:image.png)
 
 After that, the ESP32 will **restart automatically** and connect to the specified WiFi network and MQTT broker. Once connected, the device is ready to be placed near your AC, and you can use the **web remote** to control it. Good luck!
 
 ## IOT WEB Remote
 
 Use this web HTML file - https://github.com/Lahiruprageeth/AC-Remote-IOT/blob/main/IOTAC_Remote.html
+<img width="624" height="608" alt="image (6)" src="https://github.com/user-attachments/assets/18be445f-911c-4d45-b7fc-2b9330347cda" />
 
-![image.png](attachment:e8d20070-aacc-4d2d-9575-15750f1002e5:image.png)
+
