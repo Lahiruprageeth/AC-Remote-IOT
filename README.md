@@ -12,7 +12,8 @@
 
 Connect the modules using a breadboard and jumper wires. Assign **GPIO 32** on the ESP32 to the IR receiver and **GPIO 33** to the IR emitter.
 
-<img width="1117" height="719" alt="image" src="https://github.com/user-attachments/assets/633f6752-8514-464b-8d05-40debf609283" />
+<img width="1275" height="829" alt="image (8)" src="https://github.com/user-attachments/assets/b3b1a399-6ea9-431c-8d2f-b97e2483af23" />
+
 
 
 ## Firmware Upload
@@ -63,6 +64,7 @@ After that, the ESP32 will **restart automatically** and connect to the specifie
 ## IOT WEB Remote
 
 Use this web HTML file - https://github.com/Lahiruprageeth/AC-Remote-IOT/blob/main/IOTAC_Remote.html
-<img width="624" height="608" alt="image (6)" src="https://github.com/user-attachments/assets/18be445f-911c-4d45-b7fc-2b9330347cda" />
+
+<img width="641" height="609" alt="image (7)" src="https://github.com/user-attachments/assets/e8f54be7-e71b-4756-9f44-beee7cad9f82" />
 
 
